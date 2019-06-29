@@ -17,7 +17,7 @@
         <tr>
             <td>{{ $categoria->id }}</td>
             <td>{{ $categoria->nombre }}</td>
-            <td><button type="button" class="btn btn-primary"></button> {{ $categoria->nombre }}</td>
+            <td><button type="button" class="btn btn-primary">Editar categoría</button></td>
         </tr>
     @endforeach
         </tbody>
